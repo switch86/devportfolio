@@ -1,0 +1,22 @@
+.menu {
+    align-items:stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3rem;
+}
+button {
+    width: 10rem;
+}
+.filterContainer {
+    display: flex;
+    justify-content: center;
+}
+a {
+    font-size: medium;
+    margin: 0 2rem; 
+}

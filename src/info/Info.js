@@ -6,6 +6,8 @@ import memegenerator from "../img/memegenerator.jpg"
 import traveljournal from "../img/traveljournal.jpg"
 import ajsbodywork from "../img/ajsbodywork.jpg"
 import zengarden from "../img/zengarden.jpg"
+import nationalparks from "../img/nationalparks.JPG"
+import aita from "../img/aita.JPG"
 
 export let colors = ["rgb(247, 189, 255)", "rgb(82, 174, 255)"];
 
@@ -32,11 +34,11 @@ export const info = {
         }
     ],
     socials: [
-        {
-            link: "https://facebook.com/noahberlove",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
+        // {
+        //     link: "https://facebook.com/noahberlove",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
         // {
         //     link: "https://instagram.com",
         //     icon: 'fa fa-instagram',
@@ -86,53 +88,67 @@ export const info = {
 
     ],
     portfolio: [
-    {
-        title: "AJS BodyWork",
-        live: "https://ajsbodywork.surge.sh/", 
-        source: "https://github.com/switch86/assignments/tree/main/ajsBodywork",
-        skills: ["javascript", "css", "html5"],
-        image: ajsbodywork
-    },
-    {
-        title: "Color Gradient CSS",
-        live: "https://gradientreactappnkb.surge.sh/",
-        source: "https://github.com/switch86/gradientGenerator", 
-        skills: ["javascript", "css", 'html', 'html5', 'react'],
-        image: colorgradient
-    },
+        {
+            title: "National Parks",
+            live: "https://nationalparks.onrender.com/", 
+            source: "https://github.com/switch86/nationalparks",
+            skills: ["JS", "CSS", "bootstrap", "axios", "React", "reactRouter", "cors", "bcrypt", "JWT", "mongoose", "morgan", "express JWT", "dotenv", "Express", "Node"],
+            image: nationalparks
+        },
+        {
+            title: "Am I the A-hole?",
+            live: "https://aita.onrender.com",
+            source: "https://github.com/switch86/rtv",
+            skills: ["JS", "CSS", "axios", "React", "reactRouter", "cors", "bcrypt", "JWT", "mongoose", "morgan", "express JWT", "dotenv", "Express", "Node"],
+            image: aita
+        },
+        {
+            title: "AJS BodyWork",
+            live: "https://ajsbodywork.surge.sh/", 
+            source: "https://github.com/switch86/assignments/tree/main/ajsBodywork",
+            skills: ["JS", "CSS", "html5"],
+            image: ajsbodywork
+        },
+        {
+            title: "Color Gradient CSS",
+            live: "https://gradientreactappnkb.surge.sh/",
+            source: "https://github.com/switch86/gradientGenerator", 
+            skills: ["JS", "CSS", 'React'],
+            image: colorgradient
+        },
         {
             title: "Name Badge Creator",
             live: "https://namebadgegeneratornb.surge.sh",
             source: "https://github.com/switch86/nameBadge",
-            skills: ["javascript", "css", "html", "react", "forms"],
+            skills: ["JS", "CSS", "React"],
             image: namebadge
         },
         {
             title: "Mario Coin Counter",
             live: "https://marionkb.surge.sh/",
             source: "https://github.com/switch86/assignments/marioPestControl",
-            skills: ["javascript", "css", "html", "html5", "forms"],
+            skills: ["JS", "CSS"],
             image: mariopest
         },
         {
             title: "Meme Generator",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            skills: ["javascript", "css", "html", "html5", "jsx", "react", "forms"],
+            skills: ["JS", "CSS", "HTML", "html5", "react", "forms"],
             image: memegenerator
         },
         {
             title: "Travel Journal",
             live: "https://traveljournalnkb.surge.sh/",
             source: "https://github.com/switch86/assignments/travelJournal",
-            skills: ["javascript", "react", "html", "css", "html5" ],
+            skills: ["JS", "React", "HTML", "CSS", "html5" ],
             image: traveljournal
         },
         {
             title: "Zen Garden",
             live: "https://zengardennkb.surge.sh",
             source: "https://github.com/switch86/assignments/zenGarden",
-            skills: ["javascript", "html", "css", "html5"],
+            skills: ["JS", "HTML", "CSS", "html5"],
             image: zengarden
         }
     ]

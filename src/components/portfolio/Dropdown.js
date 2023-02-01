@@ -19,7 +19,7 @@ const DropDown = (props) => {
     return (
       <Dropdown
         open={open}
-        trigger={<button onClick={handleOpen}>Filter Projects</button>}
+        trigger={<a onClick={handleOpen}>Filter Projects</a>}
         menu={[
             <a onClick={() => handleMenu('React')} name="React">React</a>,
             <a onClick={() => handleMenu('Node')}>Node.Js</a>,

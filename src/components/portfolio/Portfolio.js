@@ -17,7 +17,7 @@ export default function Portfolio() {
             <Grid container display={'flex'} justifyContent={'center'}>
                 {collection.map((project, index) => (
                    <Grid item xs={12} md={6} key={index}>
-                       <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title}/>
+                       <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} skills={project.skills} />
                    </Grid>
                 ))}
             </Grid>

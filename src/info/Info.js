@@ -101,14 +101,14 @@ export const info = {
             source: "https://github.com/switch86/nationalparks",
             skills: ["JS", "CSS", "bootstrap", "axios", "React", "reactRouter", "cors", "bcrypt", "JWT", "mongoose", "morgan", "express JWT", "dotenv", "Express", "Node"],
             image: nationalparks
-        },
-        {
-            title: "Social Blog Site",
-            live: "https://aita.onrender.com",
-            source: "https://github.com/switch86/rtv",
-            skills: ["JS", "CSS", "axios", "React", "reactRouter", "cors", "bcrypt", "JWT", "mongoose", "morgan", "express JWT", "dotenv", "Express", "Node"],
-            image: aita
         }
+        // {
+        //     title: "Social Blog Site",
+        //     live: "https://aita.onrender.com",
+        //     source: "https://github.com/switch86/rtv",
+        //     skills: ["JS", "CSS", "axios", "React", "reactRouter", "cors", "bcrypt", "JWT", "mongoose", "morgan", "express JWT", "dotenv", "Express", "Node"],
+        //     image: aita
+        // }
         // {
         //     title: "AJS BodyWork",
         //     live: "https://ajsbodywork.surge.sh/", 

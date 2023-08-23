@@ -2,7 +2,7 @@ import React from 'react';
 import PortfolioBlock from "./PortfolioBlock";
 import {Box, Grid} from "@mui/material";
 import {info} from "../../info/Info";
-import DropDown from './Dropdown';
+// import DropDown from './Dropdown';
 import "./Portfolio.css"
 
 export default function Portfolio() {

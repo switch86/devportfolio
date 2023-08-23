@@ -14,9 +14,13 @@ export default function About() {
                 about{firstName} </p>
             <p><span style={{color: info.baseColor}}>about{firstName} <span
                 className={Style.green}>(main)</span> $ </span><br/>
+                {info.title1}<br/>
                 {info.bio1}<br/><br/>
+                {info.title2}<br/>
                 {info.bio2}<br/><br/>
+                {info.title3}<br/>
                 {info.bio3}<br/><br/>
+                {info.title4}<br/>
                 {info.bio4}
             </p>
         </>;

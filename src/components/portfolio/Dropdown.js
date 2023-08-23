@@ -14,7 +14,6 @@ const DropDown = (props) => {
       setCollection(newCollection) 
       setOpen(false);
     };
-
   
     return (
       <Dropdown
